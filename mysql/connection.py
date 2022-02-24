@@ -8,7 +8,7 @@ import mysql.connector as mysql
 db = mysql.connect(
     host = "abkhan.tplinkdns.com",
     user = "groupTen",
-    passwd = "groupTen10"
+    passwd = "update"
 )
 
 print(db) # it will print a connection object if everything is fine

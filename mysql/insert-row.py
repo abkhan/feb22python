@@ -2,8 +2,8 @@ import mysql.connector as mysql
 
 db = mysql.connect(
     host = "abkhan.tplinkdns.com",
-    user = "root",
-    passwd = "abkhan",
+    user = "groupTen",
+    passwd = "update",
     database = "pythonClass"
 )
 
