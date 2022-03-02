@@ -4,7 +4,7 @@ logging.basicConfig()
 
 # Parse CLODUAMQP_URL (fallback to localhost)
 url = "amqp://abkhan:abkhan@abkhan.tplinkdns.com:5672"
-credentials = pika.PlainCredentials('iccuser', 'iccuser')
+credentials = pika.PlainCredentials('update', 'update')
 params = pika.ConnectionParameters('abkhan.tplinkdns.com', 5672, '/', credentials)
 params.socket_timeout = 5
 

@@ -12,9 +12,9 @@ def pdf_process_function(msg):
 # Access the CLODUAMQP_URL environment variable and parse it (fallback to localhost)
 #url = os.environ.get('CLOUDAMQP_URL', 'amqp://guest:guest@localhost:5672/%2f')
 #url = os.environ.get('CLOUDAMQP_URL', 'amqp://iccuser@abkhan.tplink.com:5672/')
-#url = "amqp://abkhan:abkhan@abkhan.tplinkdns.com:5672"
-url = "amqp://abkhan:abkhan@abkhan.tplinkdns.com:5672"
-credentials = pika.PlainCredentials('iccuser', 'iccuser')
+#url = "amqp://some:someabkhan@abkhan.tplinkdns.com:5672"
+url = "amqp://asome:bkhan:asomebkhan@abkhan.tplinkdns.com:5672"
+credentials = pika.PlainCredentials('update', 'update')
 params = pika.ConnectionParameters('abkhan.tplinkdns.com', 5672, '/', credentials)
 params.socket_timeout = 5
 

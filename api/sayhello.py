@@ -7,4 +7,9 @@ def hello():
     """Says hello"""
     return 'Hi there'
 
+@hug.get()
+def why():
+    """Says why"""
+    return 'Why there'
+
 
